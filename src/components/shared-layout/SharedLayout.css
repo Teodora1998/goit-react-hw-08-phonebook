@@ -4,7 +4,7 @@
 }
 
 .phonebookHeader {
-  background-color: lightgrey;
+  background-color: lightcoral;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 20px;
   color: black;
@@ -14,10 +14,11 @@
 }
 
 .homeIcon {
-  font-size: 24px;
-  color: blue;
+  font-size: 32px;
+  color: #2a363b;
 }
 
 .homeIcon:hover {
   cursor: pointer;
+  color: currentColor;
 }
