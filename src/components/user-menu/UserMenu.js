@@ -14,7 +14,10 @@ const UserMenu = () => {
         Welcome, <span className="user-name">{user.name}</span>
       </p>
       <button
-
+        type="button"
+        className="logOut-btn"
+        onClick={() => dispatch(logOut())}
+      >
         Logout
         <FiLogOut className="logOut-icon" />
       </button>
